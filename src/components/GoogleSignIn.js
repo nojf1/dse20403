@@ -1,6 +1,9 @@
 import { GoogleLogin } from '@react-oauth/google';
+import { useNavigate } from 'react-router-dom';
 
 function GoogleSignIn() {
+  const navigate = useNavigate();
+
   const handleLoginSuccess = async (credentialResponse) => {
     const idToken = credentialResponse.credential;
 
@@ -20,13 +23,12 @@ function GoogleSignIn() {
       }
 
       const data = await response.json();
-      if (response.ok) {
-        console.log('Login success:', data);
-        // Store the JWT token in local storage
-        localStorage.setItem('token', data.token);
-      } else {
-        console.error('Login failed:', data.error);
-      }
+      console.log('Login success:', data);
+      alert('Login success!');
+      // Store the JWT token in local storage
+      localStorage.setItem('token', data.token);
+      // Redirect to login success page
+      navigate('/loginsuccess');
     } catch (error) {
       console.error('Login error:', error);
     }
