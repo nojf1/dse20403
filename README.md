@@ -1,3 +1,7 @@
+This project is to be used with Spring Boot API
+
+run npm install to reinstall dependencies when cloned
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
