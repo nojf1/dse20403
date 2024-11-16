@@ -2,73 +2,66 @@ This project is to be used with Spring Boot API
 
 run npm install to reinstall dependencies when cloned
 
-# Getting Started with Create React App
+Task Management & OAuth Integration Platform
+This repository contains the code and documentation for a comprehensive Task Management System, coupled with OAuth-based social registration and login functionalities. The project demonstrates the integration of backend APIs, frontend interfaces, and social login mechanisms, using modern web development frameworks and tools.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Task Management API:
 
-## Available Scripts
+User Registration and Login
+Task Creation, Retrieval, Update, and Deletion
+Search tasks by title, category, and priority
+Task prioritization system
 
-In the project directory, you can run:
+ReactJS Frontend:
 
-### `npm start`
+Intuitive user interface for task management
+Routing using React Router
+Data fetching via REST APIs using Axios
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+OAuth Social Login:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Google, Facebook, and GitHub login integration
+Display user profiles after successful login
+Backend support for OAuth token management (optional)
 
-### `npm test`
+Web Application for Student Results:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Student registration and login
+Display individual results fetched from a database
+Additional pages: Home, Contact Us, About Us, Terms & Conditions
 
-### `npm run build`
+Technical Stack
+Backend: Spring Boot, JPA, REST API
+Frontend: ReactJS
+Database: MySQL Server with phpMyAdmin
+Social Login: OAuth 2.0 for Google, Facebook, and GitHub
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Prerequisites for use
+Ensure the following tools are installed on your system:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Java Development Kit (JDK)
+Node.js
+MySQL Server and Client Tools
+Postman (for API testing)
+Any IDE supporting Spring Boot and ReactJS
+Setup Instructions
+Backend API
+Clone the repository.
+Navigate to the backend directory.
+Build and run the application using:
+bash
+Copy code
+./mvnw spring-boot:run
+Access the API at http://localhost:8080/api.
+Frontend Application
+Navigate to the frontend directory.
+Install dependencies:
+bash
+Copy code
+npm install
+Run the application:
+bash
+Copy code
+npm start
+Open http://localhost:3000 in your browser.
