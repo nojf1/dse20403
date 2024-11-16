@@ -3,6 +3,7 @@ This project is to be used with Spring Boot API
 run npm install to reinstall dependencies when cloned
 
 Task Management & OAuth Integration Platform
+
 This repository contains the code and documentation for a comprehensive Task Management System, coupled with OAuth-based social registration and login functionalities. The project demonstrates the integration of backend APIs, frontend interfaces, and social login mechanisms, using modern web development frameworks and tools.
 
 Features
